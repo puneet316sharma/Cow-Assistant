@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom Earthy Theme Color Classes */
+.bg-farm-green {
+  background-color: #2E5A36;
+}
+
+.text-farm-green {
+  color: #2E5A36;
+}
+
+.border-farm-green {
+  border-color: #2E5A36;
+}
+
+.bg-farm-sage {
+  background-color: #EBF2EC;
+}
+
+.bg-farm-earth {
+  background-color: #785A46;
+}

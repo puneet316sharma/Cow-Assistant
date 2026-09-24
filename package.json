@@ -1,0 +1,11 @@
+{
+  "name": "cow-assistant-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:backend": "npm --prefix backend start",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}
