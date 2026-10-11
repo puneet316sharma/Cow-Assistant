@@ -1,8 +1,9 @@
 services:
-  # 1. Backend Web Service (Node.js API)
+  # 1. Backend Web Service (Node.js API) - 100% Free Plan
   - type: web
     name: cow-assistant-backend
     runtime: node
+    plan: free
     rootDir: backend
     buildCommand: npm install
     startCommand: npm start
@@ -18,10 +19,11 @@ services:
       - key: FRONTEND_URL
         value: "*"
 
-  # 2. Frontend Static Site (React Vite)
+  # 2. Frontend Static Site (React Vite) - 100% Free
   - type: web
     name: cow-assistant-frontend
     runtime: static
+    plan: free
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
